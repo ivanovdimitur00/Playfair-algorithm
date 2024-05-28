@@ -6,15 +6,16 @@ A fun little project, describing how the Playfair algorithm works, using c++.
 ## Table of contents
 0. [Project status](#Project-status)
 1. [Description](#Description)
-2. [Key features and functionalities](#Key-features-and-functionalities)
-3. [Structure](#Structure)
-4. [Installation instructions](#Installation-instructions)
-5. [Dependencies](#Dependencies)
-6. [System requirements](#System-requirements)
-7. [Usage examples](#Usage-examples)
-8. [API references](#API-references)
-9. [Bugs](#Bugs)
-10. [Future improvements](#Futute-improvements)
+2. [Algortihm explanation](#Algorithm-explanation)
+3. [Key features and functionalities](#Key-features-and-functionalities)
+4. [Structure](#Structure)
+5. [Installation instructions](#Installation-instructions)
+6. [Dependencies](#Dependencies)
+7. [System requirements](#System-requirements)
+8. [Usage examples](#Usage-examples)
+9. [API references](#API-references)
+10. [Bugs](#Bugs)
+11. [Future improvements](#Futute-improvements)
 <br/>
 
 ## Project status
@@ -26,6 +27,11 @@ Completed and working. Not expecting changes.
 The purpose and goal of the project is to create a program, demonstrating a cryptography algorithm. The topic of the Playfair Algorithm was chosen. 
 
 The intended audiences are the teacher and assistant in my cryptographic methods class and myself.
+<br/>
+<br/>
+
+## Algorithm explanation
+[Example from wikipedia](https://en.wikipedia.org/wiki/Playfair_cipher#:~:text=cipher.%5B13%5D-,Example,-%5Bedit%5D)
 <br/>
 <br/>
 

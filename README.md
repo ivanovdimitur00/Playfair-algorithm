@@ -1,6 +1,10 @@
 # Playfair-algorithm
+A fun little project, describing how the Playfair algorithm works, using c++. 
+<br/>
+<br/>
 
 ## Table of contents
+0. [Project status](#Project-status)
 1. [Description](#Description)
 2. [Key features and functionalities](#Key-features-and-functionalities)
 3. [Structure](#Structure)
@@ -10,7 +14,8 @@
 7. [Bugs](#Bugs)
 8. [Future improvements](#Futute-improvements)
 <br/>
-<h2>Project status: <...></h2>
+<h2>Project status</h2>
+Completed and working. Not expecting changes.
 <br/>
 <br/>
 

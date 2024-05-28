@@ -20,10 +20,9 @@ Completed and working. Not expecting changes.
 <br/>
 
 ## Description
-Describe the purpose / goal of the project <br/>
-Describe the intended audiences <br/>
-Short, brief description.
+The purpose and goal of the project is to create a program, demonstrating a cryptography algorithm. The topic of the Playfair Algorithm was chosen. 
 
+The intended audiences are the teacher and assistant in my cryptographic methods class and myself.
 
 ## Key features and functionalities
 * Key feature 1

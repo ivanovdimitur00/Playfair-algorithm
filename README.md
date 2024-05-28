@@ -9,10 +9,12 @@ A fun little project, describing how the Playfair algorithm works, using c++.
 2. [Key features and functionalities](#Key-features-and-functionalities)
 3. [Structure](#Structure)
 4. [Installation instructions](#Installation-instructions)
-5. [Usage examples](#Usage-examples)
-6. [API references](#API-references)
-7. [Bugs](#Bugs)
-8. [Future improvements](#Futute-improvements)
+5. [Dependencies](#Dependencies)
+6. [System requirements](#System-requirements)
+7. [Usage examples](#Usage-examples)
+8. [API references](#API-references)
+9. [Bugs](#Bugs)
+10. [Future improvements](#Futute-improvements)
 <br/>
 <h2>Project status</h2>
 Completed and working. Not expecting changes.
@@ -23,33 +25,50 @@ Completed and working. Not expecting changes.
 The purpose and goal of the project is to create a program, demonstrating a cryptography algorithm. The topic of the Playfair Algorithm was chosen. 
 
 The intended audiences are the teacher and assistant in my cryptographic methods class and myself.
+<br/>
+<br/>
 
 ## Key features and functionalities
-* Key feature 1
-* Function 1 <br/>
-you can also section it with sentences - explanations.
-
+* Plain text message and keyword input;
+* Plain text message and keyword truncation. Option to see results;
+* Encryption using the Playfair algorithm. Option to see result;
+* Decryption using the Playfair algorithm. Option to see result;
+* Visuals for the generation of the playfair matrix and bigraph substitution;
+* Capability to restore truncated white spaces and some symbols.
+<br/>
 
 ## Structutre
-* Describe how the project files are arranged
-* Use bullet points and short sentences 
+* The project is a Monolithic C++ file;
+* There is documentation included inside the source, as well as some ideas.
+<br/>
 
 ## Installation instructions
-1. How to access and/or setup the project
-* What dependencies does the project require?
+1. Access the source code from this repository and download it;
+2. Using an IDE and/or a compiler for C++, compile for your computer system and launch the executable.
+* NOTE: The options to see some results are present in the main() function.
+<br/>
 
-What are the system requirements for the project to be useful?
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+1. ALTERNATIVE: you can use [This online c++ compiler](https://www.onlinegdb.com/online_c++_compiler) to compile and run the code. No extra settings or flags required.
+<br/>
+
+## DEPENDENCIES
+* C++ compiler. OR
+* internet connection
+<br/>
+
+## System requirements
+| System Requirements |
+| ------------------- |
+| X86 capable CPU |
+<br/>
 
 ## Usage examples
-1. Make a tutorial on how the project can be used
-2. Use numbered lists
-
+1. Input the message that you want to see truncated and encrypted;
+2. Input the key that you want to be used in the encrypting process.
+<br/>
 
 ## API references
+Some functions that you need to know to edit the source code would be:
 * If the project is used as a standalone library, describe the functions that can be called.
 
 

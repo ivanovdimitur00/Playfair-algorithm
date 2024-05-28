@@ -75,6 +75,8 @@ The intended audiences are the teacher and assistant in my cryptographic methods
 ## Usage examples
 1. Input the message that you want to see truncated and encrypted;
 2. Input the key that you want to be used in the encrypting process.
+> [!TIP]
+> There is a [sample text file](./input.txt) for input.
 <br/>
 
 ## API references

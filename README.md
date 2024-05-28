@@ -69,7 +69,7 @@ The intended audiences are the teacher and assistant in my cryptographic methods
 ## System requirements
 | System Requirements |
 | ------------------- |
-| X86 capable CPU |
+| X86 capable CPU     |
 <br/>
 
 ## Usage examples

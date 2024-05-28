@@ -16,7 +16,8 @@ A fun little project, describing how the Playfair algorithm works, using c++.
 9. [Bugs](#Bugs)
 10. [Future improvements](#Futute-improvements)
 <br/>
-<h2>Project status</h2>
+
+## Project status
 Completed and working. Not expecting changes.
 <br/>
 <br/>
@@ -45,13 +46,16 @@ The intended audiences are the teacher and assistant in my cryptographic methods
 ## Installation instructions
 1. Access the source code from this repository and download it;
 2. Using an IDE and/or a compiler for C++, compile for your computer system and launch the executable.
-* NOTE: The options to see some results are present in the main() function.
+> [!TIP]
+> The options to see some results are present in the main() function.
 <br/>
 
-1. ALTERNATIVE: you can use [This online c++ compiler](https://www.onlinegdb.com/online_c++_compiler) to compile and run the code. No extra settings or flags required.
+> [!NOTE]
+> you can use [This online c++ compiler](https://www.onlinegdb.com/online_c++_compiler) to compile and run the code.
+> No extra settings or flags required.
 <br/>
 
-## DEPENDENCIES
+## Dependencies
 * C++ compiler. OR
 * internet connection
 <br/>
@@ -69,12 +73,17 @@ The intended audiences are the teacher and assistant in my cryptographic methods
 
 ## API references
 Some functions that you need to know to edit the source code would be:
-* If the project is used as a standalone library, describe the functions that can be called.
-
+* `showExtractedSymbols(list<int>& , list<char> )` - shows the truncated symbols, including whitespaces and the position of each symbol in the string.
+<br/>
 
 ## Bugs
-* describe any occuring bugs that need to be fixed
-
+ - [x] No bugs have occurred or have been documented.  
+<br/>
 
 ## Future improvements
-* describe some ideas you would want to implement into your project
+- [ ] Multiple language support (might need `wstring`);
+- [ ] Figure out a way to dynamically create the alphbet matrix and the matrix for used letters (given supported languages and symbols);
+  - [ ] Most likely a separate file (.CSV?) and a config file.
+- [ ] Split the monolithic file into separate files;
+- [ ] Add a config file for some processes to be made in/visible;
+- [ ] ~rewrite the substitution (replace() ) function to be more readable~
